@@ -1,0 +1,95 @@
+{
+  "proLegacyToPremiumPromo" : true,
+  "products" : [
+    {
+      "id" : "com.touchbyte.PhotoSync.ProLifetime",
+      "premium" : true,
+      "active" : true
+    },
+    {
+      "id" : "com.touchbyte.PhotoSync.PremiumLifetime",
+      "premium" : true,
+      "active" : true
+    },
+    {
+      "id" : "com.touchbyte.PhotoSync.PremiumUpgradeLifetime",
+      "active" : true,
+      "upgradeLifetime" : true,
+      "premium" : true
+    },
+    {
+      "active" : true,
+      "subscriptionNum" : 1,
+      "trialNum" : 3,
+      "id" : "com.touchbyte.PhotoSync.PremiumMonthly",
+      "subscription" : true,
+      "trialUnit" : 0,
+      "premium" : true,
+      "trial" : true,
+      "subscriptionUnit" : 2
+    },
+    {
+      "active" : true,
+      "subscriptionNum" : 1,
+      "bestDeal" : true,
+      "id" : "com.touchbyte.PhotoSync.PremiumYearly",
+      "subscription" : true,
+      "premium" : true,
+      "trialNum" : 2,
+      "trialUnit" : 1,
+      "trial" : true,
+      "subscriptionUnit" : 3
+    },
+    {
+      "active" : true,
+      "subscriptionNum" : 1,
+      "trialNum" : 3,
+      "id" : "com.touchbyte.PhotoSync.PremiumUpgradeMonthly",
+      "subscription" : true,
+      "trialUnit" : 0,
+      "upgradeSubscription" : true,
+      "premium" : true,
+      "trial" : true,
+      "subscriptionUnit" : 2
+    },
+    {
+      "active" : true,
+      "subscriptionNum" : 1,
+      "bestDeal" : true,
+      "id" : "com.touchbyte.PhotoSync.PremiumUpgradeYearly",
+      "subscription" : true,
+      "premium" : true,
+      "upgradeSubscription" : true,
+      "subscriptionUnit" : 3
+    }
+  ],
+  "forceReceiptRefresh" : false,
+  "proToPremiumPromo" : {
+    "daysFromPurchase" : 30,
+    "enabled" : true,
+    "promoType" : 2,
+    "campaignName" : "1Q2022"
+  },
+  "useDropboxScopes" : false,
+  "learnMoreUrls" : {
+    "de" : {
+      "premiumFeature-encryption" : "https:\/\/premium.photosync-app.com\/eos.html",
+      "premiumFeature-autotransfer" : "https:\/\/premium.photosync-app.com\/de\/autotransfer.html",
+      "premiumFeature-camera" : "https:\/\/premium.photosync-app.com\/de\/eos.html",
+      "premiumFeature-iOS-camera" : "https:\/\/premium.photosync-app.com\/de\/camera.html",
+      "premiumFeature-shortcuts" : "https:\/\/premium.photosync-app.com\/de\/siri.html",
+      "premiumFeature-iXpand" : "https:\/\/premium.photosync-app.com\/de\/ixpand.html"
+    },
+    "en" : {
+      "premiumFeature-encryption" : "https:\/\/premium.photosync-app.com\/eos.html",
+      "premiumFeature-autotransfer" : "https:\/\/premium.photosync-app.com\/autotransfer.html",
+      "premiumFeature-camera" : "https:\/\/premium.photosync-app.com\/eos.html",
+      "premiumFeature-iOS-camera" : "https:\/\/premium.photosync-app.com\/camera.html",
+      "premiumFeature-shortcuts" : "https:\/\/premium.photosync-app.com\/siri.html",
+      "premiumFeature-iXpand" : "https:\/\/premium.photosync-app.com\/ixpand.html"
+    }
+  },
+  "legacyOnboarding" : false,
+  "onboardingPromo" : true,
+  "licenseServer" : "https:\/\/api.revenuecat.com"
+}
