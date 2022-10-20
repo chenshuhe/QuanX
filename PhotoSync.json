@@ -1,3 +1,17 @@
+/******************************
+
+[rewrite_local]
+^https?:\/\/tu5\.twittme\.net\/cms\/api\/app\/article\/play url script-response-body https://raw.githubusercontent.com/chenshuhe/QuanX/blob/main/PhotoSync.json
+
+^https?:\/\/license\.photosync-app\.com\/photosync_pro_premium.json url script-response-body https://github.com/chenshuhe/QuanX/blob/main/PhotoSync
+
+[mitm] 
+hostname = license.photosync-app.com
+
+*******************************/
+
+
+
 {
   "proLegacyToPremiumPromo" : true,
   "products" : [
